@@ -1,0 +1,87 @@
+{
+  "Timelock": "0x48586C372703554C3eBB6903C2014BDA649a0cFa",
+  "ADMIN": "0xfADf603cC72886ef6Aa64A7835dBF5A6083287aC",
+  "PriceOracle": "0x372f92248D63b3c7095BbDe6D3641645c9730521",
+  "PriceOracleFeeder": "0xb6Ab7B196AB7E53FDE059A60a7CD7B852d178c32",
+  "ChainLink": {
+    "LINK": "0x404460c6a5ede2d891e8297795264fde62adbb75",
+    "VrfCoordinator": "0x747973a5A2a4Ae1D3a8fDF5479f1514F65Db9C31",
+    "ChainLinkHash": "0xc251acd21ec4fb7f31bb8868288bfdbaeb4fbfec2df3735ddbd4f7dc8d60103c",
+    "ChainLinkFee": "200000000000000000"
+  },
+  "Lottery": "0x7124DeF65e396423dCb58AC142c5d999f7a5145F",
+  "RandomNumberGenerator": "0x49cd17b0605EA8df561D3e3b2724F57a601D53b7",
+  "MAX_FEE": 10,
+  "Config": "0x88E1D14Eec99814E8e183640F2eeAce9Aa867AAf",
+  "Funds": {
+    "PlayToTheMoon": "0x1F094974D1B0ea25c37Dfa56E531cf5F8A873ecB",
+    "SAFU": "0xB725f2D9a9480E06C87551cfd6C3047f27458232",
+    "Operator": "0xfb2f6aa6Cc754aF316f64e91Fcac1dcb4696F49A"
+  },
+  "PlayDistributor": "0xc685C133427707f5227Db8dD6E6b06d10C4a31A2",
+  "Strategy": {
+    "StrategyPancakeCake": "0x0231a93D013aB4bF6bf1ff258fB3de8b5a3955E5",
+    "StrategyAlpacaBtcb": "0x83103743bf772551e66Db28A2Af1F1DaAb953a6b",
+    "StrategyAlpacaEth": "0xe3D3a7b4e0b716db1bF2A35167640B4CCF9d1F61",
+    "StrategyAlpacaWbnb": "0x0A5f3035E07CBE3ddc7bda92EF3c8dFdB5ccCa22",
+    "StrategyAlpacaBusd": "0x23FB92c81a7ccD383dc38B418Ce0AbF296EE4197",
+    "StrategyAlpacaUsdt": "0xAE09768a711194B197B93C4aE63c31DfeB13Cff3",
+    "StrategyAlpacaAlpaca": "0xb9E5317893a8a072794c48f043Bc9AC53eE42B00"
+  },
+  "Vault": {
+    "PancakeCake": "0x028a74ff5205015e18bC1F1c0FA1cd2480AB6EE9",
+    "AlpacaBtcb": "0x3931F2446f432b595F6a5D2A468C98f262B24C1B",
+    "AlpacaEth": "0x7D08eaeD6CbB6B0Cee9bEf0C743a0edc3Eb136C6",
+    "AlpacaWbnb": "0xA9591be32B0b704f2EC4376E6750d96b4f1d818a",
+    "AlpacaBusd": "0x881A285925bfAeE97840eb30bD0B8441f3db1992",
+    "AlpacaUsdt": "0xac4D9f4cC11F57d1fFA7Aa3D97b1E981d00c66d2",
+    "AlpacaAlpaca": "0x83f52ea33d3e0191A6Afa4bD4d9351C048792982",
+    "Play": "0xF81f502cb242DC1cB67e050B37B6433Fc25737EF",
+    "Prize0": "0x0d01ADCdA21e9744636d8563dd97791Bd0c9d648",
+    "PlayBnb": "",
+    "EventBunny": "0x969f670AD59e8007B3c7dc12234CC96c841C244d"
+  },
+  "LinearRelease": {
+    "PRIZE0": "0x8aAd4349c373286d9081C21b14Af7eACc8Df171F",
+    "VESTING": "0xD5EB15a4f748a483334A4f78545c2e4ec93154F4"
+  },
+  "Tokens": {
+    "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "BTCB": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
+    "ETH": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+    "BUSD": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    "USDT": "0x55d398326f99059ff775485246999027b3197955",
+    "CAKE": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+    "ALPACA": "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
+    "SYRUP": "0x009cf7bc57584b7998236eff51b98a168dcea9b0",
+    "PLAY": "0xB8637EcC56680A01A555FD8C85Af7fa7d792dbB9",
+    "BUNNY": "0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51"
+  },
+  "LPTokens": {
+    "PLAYBNB": ""
+  },
+  "Alpaca": {
+    "AlpacaFairLaunch": "0xA625AB01B08ce023B2a342Dbb12a16f2C8489A8F",
+    "BTCBVault": "0x08FC9Ba2cAc74742177e0afC3dC8Aed6961c24e7",
+    "ETHVault": "0xbfF4a34A4644a113E8200D7F1D79b3555f723AfE",
+    "BNBVault": "0xd7D069493685A581d27824Fc46EdA46B7EfC0063",
+    "BUSDVault": "0x7C9e73d4C71dae564d41F78d56439bB4ba87592f",
+    "USDTVault": "0x158Da805682BdC8ee32d52833aD41E74bb951E59",
+    "ALPACAVault": "0xf1bE8ecC990cBcb90e166b71E368299f0116d421",
+    "PoolIds": {
+      "BTCBVault": 18,
+      "ETHVault": 9,
+      "BNBVault": 1,
+      "BUSDVault": 3,
+      "USDTVault": 16,
+      "ALPACAVault": 11
+    }
+  },
+  "Pancakeswap": {
+    "Factory": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+    "RouterV2": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "MasterChef": "0x73feaa1eE314F8c655E354234017bE2193C9E24E",
+    "CakePoolId": 0
+  },
+  "Multicall2": "0xfF6FD90A470Aaa0c1B8A54681746b07AcdFedc9B"
+}
