@@ -22,7 +22,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const To = '';
   
   console.log(">> Mint warchest");
-  (await playDistributor.mintWarchest(TO, ethers.utils.parseEther('1'), { gasLimit: '1000000' })).wait();
+  (await playDistributor.mintWarchest(To, ethers.utils.parseEther(''), { gasLimit: '1000000' })).wait();
   console.log("✅ Done");
 };
 

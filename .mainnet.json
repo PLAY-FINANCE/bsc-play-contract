@@ -38,7 +38,7 @@
     "AlpacaAlpaca": "0x83f52ea33d3e0191A6Afa4bD4d9351C048792982",
     "Play": "0xF81f502cb242DC1cB67e050B37B6433Fc25737EF",
     "Prize0": "0x0d01ADCdA21e9744636d8563dd97791Bd0c9d648",
-    "PlayBnb": "",
+    "PlayBnb": "0x64542B5A022aAA5023d6095689997BcE974ad95a",
     "EventBunny": "0x969f670AD59e8007B3c7dc12234CC96c841C244d"
   },
   "LinearRelease": {
@@ -58,7 +58,7 @@
     "BUNNY": "0xc9849e6fdb743d08faee3e34dd2d1bc69ea11a51"
   },
   "LPTokens": {
-    "PLAYBNB": ""
+    "PLAYBNB": "0x73cb011a0728cfc625f2002ea28cd9356193b937"
   },
   "Alpaca": {
     "AlpacaFairLaunch": "0xA625AB01B08ce023B2a342Dbb12a16f2C8489A8F",

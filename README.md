@@ -14,7 +14,7 @@ We also list some of the most relevant addresses below:
 - PlayToTheMoon: 0x1F094974D1B0ea25c37Dfa56E531cf5F8A873ecB
 - SAFU: 0xB725f2D9a9480E06C87551cfd6C3047f27458232
 - Operator: 0xfb2f6aa6Cc754aF316f64e91Fcac1dcb4696F49A
-- PCS (V2) PLAY-BNB LP token: 
+- PCS (V2) PLAY-BNB LP token: 0x73cb011a0728cfc625f2002ea28cd9356193b937
 - Admin: 0xfADf603cC72886ef6Aa64A7835dBF5A6083287aC
 - All other mainnet contracts: https://github.com/play-finance/bsc-play-contract/blob/main/.mainnet.json
 
