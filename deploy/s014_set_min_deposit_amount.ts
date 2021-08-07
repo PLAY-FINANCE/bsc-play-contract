@@ -30,16 +30,16 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const bunny = Vault__factory.connect(config.Vault.EventBunny, (await ethers.getSigners())[0]);
 
   console.log(">> Set min deposit amounts");
-  (await play.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await playBnb.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await btcb.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await eth.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await wbnb.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await busd.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await usdt.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await cake.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await alpaca.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
-  (await bunny.setMinDepositAmount(ethers.utils.parseEther('0'), { gasLimit: '1000000' })).wait();
+  (await play.setMinDepositAmount(ethers.utils.parseEther('500'), { gasLimit: '1000000' })).wait();
+  (await playBnb.setMinDepositAmount(ethers.utils.parseEther('10'), { gasLimit: '1000000' })).wait();
+  (await btcb.setMinDepositAmount(ethers.utils.parseEther('0.005'), { gasLimit: '1000000' })).wait();
+  (await eth.setMinDepositAmount(ethers.utils.parseEther('0.1'), { gasLimit: '1000000' })).wait();
+  (await wbnb.setMinDepositAmount(ethers.utils.parseEther('0.5'), { gasLimit: '1000000' })).wait();
+  (await busd.setMinDepositAmount(ethers.utils.parseEther('300'), { gasLimit: '1000000' })).wait();
+  (await usdt.setMinDepositAmount(ethers.utils.parseEther('300'), { gasLimit: '1000000' })).wait();
+  (await cake.setMinDepositAmount(ethers.utils.parseEther('15'), { gasLimit: '1000000' })).wait();
+  (await alpaca.setMinDepositAmount(ethers.utils.parseEther('300'), { gasLimit: '1000000' })).wait();
+  (await bunny.setMinDepositAmount(ethers.utils.parseEther('20'), { gasLimit: '1000000' })).wait();
   console.log("✅ Done");
 };
 
