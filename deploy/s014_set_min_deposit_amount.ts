@@ -30,8 +30,8 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const bunny = Vault__factory.connect(config.Vault.EventBunny, (await ethers.getSigners())[0]);
 
   console.log(">> Set min deposit amounts");
-  (await play.setMinDepositAmount(ethers.utils.parseEther('500'), { gasLimit: '1000000' })).wait();
-  (await playBnb.setMinDepositAmount(ethers.utils.parseEther('10'), { gasLimit: '1000000' })).wait();
+  (await play.setMinDepositAmount(ethers.utils.parseEther('100'), { gasLimit: '1000000' })).wait();
+  (await playBnb.setMinDepositAmount(ethers.utils.parseEther('2'), { gasLimit: '1000000' })).wait();
   (await btcb.setMinDepositAmount(ethers.utils.parseEther('0.005'), { gasLimit: '1000000' })).wait();
   (await eth.setMinDepositAmount(ethers.utils.parseEther('0.1'), { gasLimit: '1000000' })).wait();
   (await wbnb.setMinDepositAmount(ethers.utils.parseEther('0.5'), { gasLimit: '1000000' })).wait();
