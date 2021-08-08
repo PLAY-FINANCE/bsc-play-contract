@@ -89,6 +89,7 @@
     "test:randomNumberGenerator": "hardhat test --no-compile ./test/RandomNumberGenerator.test.ts",
     "test:cleanupDepositList": "hardhat test --no-compile ./test/CleanupDepositList.test.ts",
     "test:linearRelease": "hardhat test --no-compile ./test/LinearRelease.test.ts",
+    "test:linearReleaseWithFee": "hardhat test --no-compile ./test/LinearReleaseWithFee.test.ts",
     "test": "hardhat test --no-compile",
     "coverage": "hardhat coverage",
     "ganache": "ganache-cli",
