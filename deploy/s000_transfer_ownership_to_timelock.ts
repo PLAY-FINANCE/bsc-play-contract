@@ -1,6 +1,6 @@
 import { HardhatRuntimeEnvironment } from 'hardhat/types';
 import { DeployFunction } from 'hardhat-deploy/types';
-import { ethers, upgrades } from 'hardhat';
+import { ethers } from 'hardhat';
 import { Vault__factory, Timelock__factory, PriceOracle__factory, Config__factory, Fund__factory, Lottery__factory, PlayDistributor__factory, PrizeVault__factory } from '../typechain';
 import MainnetConfig from '../.mainnet.json';
 import TestnetConfig from '../.testnet.json';
@@ -94,6 +94,21 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   console.log(">> Transferring ownership of VaultWithoutStrategyPlay from deployer to Timelock");
   const vaultWithoutStrategyPlay = Vault__factory.connect(config.Vault.Play, (await ethers.getSigners())[0]);
   (await vaultWithoutStrategyPlay.transferOwnership(timelock.address, { gasLimit: '1000000' })).wait();
+  console.log("✅ Done");
+  
+  console.log(">> Transferring ownership of VaultWithoutStrategyPlayBnb from deployer to Timelock");
+  const vaultWithoutStrategyPlayBnb = Vault__factory.connect(config.Vault.PlayBnb, (await ethers.getSigners())[0]);
+  (await vaultWithoutStrategyPlayBnb.transferOwnership(timelock.address, { gasLimit: '1000000' })).wait();
+  console.log("✅ Done");
+  
+  console.log(">> Transferring ownership of VaultWithoutStrategyBunny from deployer to Timelock");
+  const vaultWithoutStrategyBunny = Vault__factory.connect(config.Vault.EventBunny, (await ethers.getSigners())[0]);
+  (await vaultWithoutStrategyBunny.transferOwnership(timelock.address, { gasLimit: '1000000' })).wait();
+  console.log("✅ Done");
+  
+  console.log(">> Transferring ownership of VaultPancakeStrategyCake from deployer to Timelock");
+  const vaultPancakeStrategyCake = Vault__factory.connect(config.Vault.PancakeCake, (await ethers.getSigners())[0]);
+  (await vaultPancakeStrategyCake.transferOwnership(timelock.address, { gasLimit: '1000000' })).wait();
   console.log("✅ Done");
 
   console.log(">> Transferring ownership of PrizeVault from deployer to Timelock");  
